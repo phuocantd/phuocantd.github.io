@@ -6,7 +6,7 @@ import About from './About';
 import Experience from './Experience';
 import Project from './Project';
 import Contact from './Contact';
-// import Footer from './Footer';
+import Footer from './Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
@@ -19,6 +19,7 @@ function App() {
       <Experience />
       <Project />
       <Contact />
+      <Footer />
     </div>
   );
 }

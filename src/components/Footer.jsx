@@ -1,14 +1,12 @@
-import React from "react";
-import "./styles/footer.css";
+import React from 'react';
+import './styles/footer.css';
 
 function Footer() {
-  const year = new Date().getFullYear();
   return (
     <footer>
-      <p>
-        Create by <span>Yong Zong Wei </span> | Copyright ⓒ {year} All rights
-        reserved.
-      </p>
+      <img
+        src='https://profile-counter.glitch.me/phuocantd.github.io/count.svg'
+        alt='counter'></img>
     </footer>
   );
 }
