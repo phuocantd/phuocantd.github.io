@@ -7,7 +7,7 @@ import 'react-vertical-timeline-component/style.min.css';
 import './styles/experience.css';
 import WorkIcon from '@material-ui/icons/Work';
 import StarIcon from '@material-ui/icons/Star';
-import experience from './data/experience.js';
+import experiences from './data/experience.js';
 
 function Experience() {
   return (
@@ -15,7 +15,7 @@ function Experience() {
       <div>
         <h1>Experience</h1>
         <VerticalTimeline>
-          {experience.map((experience, index) => (
+          {experiences.map((experience, index) => (
             <VerticalTimelineElement
               key={index}
               contentStyle={{ background: '#71c9ce', color: '#fff' }}

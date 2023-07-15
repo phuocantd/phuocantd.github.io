@@ -5,7 +5,7 @@ import './styles/home.css';
 import ScrollAnimation from 'react-animate-on-scroll';
 import PictureAsPdfIcon from '@material-ui/icons/PictureAsPdf';
 import homeImage from './images/home/home.png';
-import mycv from './file/mycv.pdf';
+import mycv from './file/PhuocAn_CV.pdf';
 
 //Update wordsDisplay data
 // const wordsDisplay = [

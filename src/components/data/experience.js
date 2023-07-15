@@ -1,6 +1,11 @@
-const experience = [
+const experiences = [
   {
-    date: '03/2021 ~ Present',
+    date: '06/2021 ~ Present',
+    event: 'GTS VietNam JSC',
+    detail: 'Freelancer Full-time Mobile developer'
+  },
+  {
+    date: '03/2021 ~ 03/2023',
     event: 'Agecode Ltd',
     detail: 'Full-time Mobile developer'
   },
@@ -19,4 +24,4 @@ const experience = [
   }
 ];
 
-export default experience;
+export default experiences;
